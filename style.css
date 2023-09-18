@@ -8,7 +8,6 @@
 
 body {
     background-color: #ffeedf;
-    height: 100vh; /* sets the target element height to 100 (100%) viewport height */
 }
 
 button {
@@ -24,4 +23,11 @@ button {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); /* moves away the element that much from themselves */
+}
+
+span {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
 }
