@@ -22,7 +22,7 @@ button {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); /* moves away the element that much from themselves */
+    transform: translate(-50%, -50%); /* moves away the element that much from itself */
 }
 
 span {
