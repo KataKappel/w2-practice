@@ -13,17 +13,17 @@ logger(extractionOfTwoNumbers(10, 15))
 
 function multiplyTwoNumbers(x, y) {
     let multiplication = 0;
-    multiplication = x + y;
+    multiplication = x * y;
     return multiplication;
 }
 
 logger (multiplyTwoNumbers (10, 12))
 
 function createName(x, y) {
-    let creation = 0;
+    let creation = '';
     creation = x + y;
     return creation;
 }
 
-logger ('Hello ' + createName ('Kappel', ' Kata') + '!')
-logger ('Hello ' + createName ('Kiss', ' Ferenc') + '!')
+logger (`Hello ${createName('Kappel', ' Kata')}!`) /* template literal */
+logger ('Hello ' + createName('Kiss', ' Ferenc') + '!')
