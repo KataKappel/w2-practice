@@ -25,5 +25,5 @@ function createName(x, y) {
     return creation;
 }
 
-logger (createName ('Kappel', ' Kata'))
-logger (createName ('Kiss', ' Ferenc'))
+logger ('Hello ' + createName ('Kappel', ' Kata') + '!')
+logger ('Hello ' + createName ('Kiss', ' Ferenc') + '!')
