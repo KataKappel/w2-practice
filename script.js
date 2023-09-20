@@ -3,22 +3,27 @@ function logger(param) {
     console.log(param)
 }
 
-logger ('hello')
-logger ('ciao')
-logger ('szia')
-
-function logTheSumOfTwoNumbers(x, y) {
-    /* let x = 1
-    let y = 2 */
-    console.log(x + y)
+function extractionOfTwoNumbers(x, y) {
+    let extraction = 0; 
+    extraction = x - y;
+    return extraction; 
 }
 
-logTheSumOfTwoNumbers(1, 2)
+logger(extractionOfTwoNumbers(10, 15))
 
-function sumOfTwoNumbers(x, y) {
-    let sum = 0; /* a változó kezdő értéke 0 legyen */
-    sum = x + y;
-    return sum; /* return gives back the value of 'sum' */
+function multiplyTwoNumbers(x, y) {
+    let multiplication = 0;
+    multiplication = x + y;
+    return multiplication;
 }
 
-logger(sumOfTwoNumbers(10, 5))
+logger (multiplyTwoNumbers (10, 12))
+
+function createName(x, y) {
+    let creation = 0;
+    creation = x + y;
+    return creation;
+}
+
+logger (createName ('Kappel', ' Kata'))
+logger (createName ('Kiss', ' Ferenc'))
