@@ -1,3 +1,31 @@
-body {
-    background-color: aqua;
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.country {
+    width: 300px;
+    min-height: 160px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.country h2 {
+    min-height: 80px;
+    text-align: center;
+}
+
+.country p{
+    text-align: center;
 }
